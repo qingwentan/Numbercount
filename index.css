@@ -1,9 +1,13 @@
 body {
-    background-image: url("pic.jpg");
+    background-image: url("https://images.unsplash.com/photo-1631943406801-ba6ccfa4f682?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
     background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+}
+.container{
+    margin: auto;
+    height: 80vh;
 }
 
 h1 {
@@ -29,10 +33,10 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: palevioletred;
+    margin: 10px;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: green;
 }
-
